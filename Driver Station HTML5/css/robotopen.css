@@ -1,0 +1,51 @@
+/* robotopen ds css */
+
+body { 
+    padding-top: 40px;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+
+html {
+	overflow-y:auto;
+}
+
+#console {
+	background-color:#ffffff;
+	height:615px;
+	overflow:auto;
+	padding:5px;
+	border:1px solid #dddddd;
+}
+
+#console p {
+	padding:0;
+	margin:0;
+}
+
+#parameters {
+	min-height:615px;
+	overflow:auto;
+	padding:5px;
+}
+
+#robot {
+	height:570px;
+	overflow:auto;
+}
+
+#feedback-section {
+	height: 290px;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+#joy-hovers {
+	float: left;
+	margin-top: 20px;
+	margin-left: 135px;
+}
+
+.hinttext {
+	color: black;
+}
